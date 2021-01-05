@@ -21,14 +21,25 @@ namespace SocialMediaApp.ViewModels
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand(true));
 
             ItemTapped = new Command<Item>(OnItemSelected);
 
             AddItemCommand = new Command(OnAddItem);
         }
 
-        async Task ExecuteLoadItemsCommand()
+        public ItemsViewModel(bool allItems)
+        {
+            Title = "Browse";
+            Items = new ObservableCollection<Item>();
+            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand(false));
+
+            ItemTapped = new Command<Item>(OnItemSelected);
+
+            AddItemCommand = new Command(OnAddItem);
+        }
+
+        async Task ExecuteLoadItemsCommand(bool allItems)
         {
             IsBusy = true;
 
@@ -38,7 +49,19 @@ namespace SocialMediaApp.ViewModels
                 var items = await DataStore.GetItemsAsync(true);
                 foreach (var item in items)
                 {
-                    Items.Add(item);
+                    if (true == allItems)
+                    { 
+                        Items.Add(item);
+                    }
+
+                    else
+                    {
+                        if (true ==item.IsContact)
+                        {
+                            Items.Add(item);
+                        }
+                    }
+
                 }
             }
             catch (Exception ex)
