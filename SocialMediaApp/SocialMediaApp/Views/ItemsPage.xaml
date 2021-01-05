@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SocialMediaApp.ViewModels"  
              xmlns:model="clr-namespace:SocialMediaApp.Models"  
              x:Name="BrowseItemsPage">
-    
+
     <!-- commenting out the add button -->
     <!--
     <ContentPage.ToolbarItems>
@@ -24,15 +24,18 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Padding="10" x:DataType="model:Item">
-                        <Label Text="{Binding Text}" 
+                        <StackLayout Orientation="Horizontal" Spacing="0">
+                            <CheckBox IsChecked ="{Binding IsContact}" />
+                            <Label Text="{Binding Text}" 
                             LineBreakMode="NoWrap" 
                             Style="{DynamicResource ListItemTextStyle}" 
                             FontSize="16" />
+                        </StackLayout>
                         <Label Text="{Binding Description}" 
                             LineBreakMode="NoWrap"
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
-                        <CheckBox IsChecked ="{Binding IsContact}" />
+
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"
