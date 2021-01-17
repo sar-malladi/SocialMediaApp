@@ -5,6 +5,11 @@
              Title="{Binding Title}">
 
     <StackLayout Spacing="20" Padding="15">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+            <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                <Image Source="pfp" WidthRequest="200" HeightRequest="100" Margin="0,10,0,10" HorizontalOptions="Start" />
+            </ContentView>
+        </StackLayout>
         <Label Text="Text:" FontSize="Medium" />
         <Label Text="{Binding Text}" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />

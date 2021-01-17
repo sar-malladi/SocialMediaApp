@@ -14,12 +14,11 @@ namespace SocialMediaApp.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description.", IsContact = true },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description.", IsContact = true },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description.", IsContact = false },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description.", IsContact = false },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description.", IsContact = false },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description.", IsContact = false }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "John Smith", Description="Cypress High School", IsContact = true },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Emma Johnson", Description="Bear River School of Fine Arts", IsContact = true },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Michael Williams", Description="Edgewater High", IsContact = false },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Daniel Jones", Description="Maple Leaf Technical School", IsContact = false },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Mia Garcia", Description="Coral Springs Institute", IsContact = false },
             };
         }
 
