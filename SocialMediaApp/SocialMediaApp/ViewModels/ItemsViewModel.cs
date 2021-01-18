@@ -19,7 +19,7 @@ namespace SocialMediaApp.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Add Contacts";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand(true));
 
@@ -30,7 +30,7 @@ namespace SocialMediaApp.ViewModels
 
         public ItemsViewModel(bool allItems)
         {
-            Title = "Browse";
+            Title = "My Contacts";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand(false));
 

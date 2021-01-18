@@ -14,14 +14,14 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.BackgroundColor" Value="#FF9E00" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
                 <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.DisabledColor" Value="#FDD888" />
+                <Setter Property="Shell.UnselectedColor" Value="#FDD888" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#FF9E00" />
                 <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#FDD888"/>
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
@@ -35,7 +35,7 @@
                 <Setter Property="TextColor" Value="White"></Setter>
             </Style>
             <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
-                <Setter Property="BackgroundColor" Value="LightBlue"></Setter>
+                <Setter Property="BackgroundColor" Value="#FDD888"></Setter>
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -47,7 +47,7 @@
                             </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                    <Setter Property="BackgroundColor" Value="#FF9E00" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -63,7 +63,7 @@
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
-                                <VisualState.Setters>
+                                <VisualState.Setters>                                    
                                     <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
                                 </VisualState.Setters>
                             </VisualState>
@@ -82,18 +82,18 @@
     <FlyoutItem Title="My Profile" Icon="icon_about.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="AllContacts" Icon="icon_feed.png">
+    <FlyoutItem Title="Add Contacts" Icon="icon_search.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="MyContacts" Icon="icon_feed.png">
+    <FlyoutItem Title="My Contacts" Icon="icon_book.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:MyItemsPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="MyContacts" Icon="icon_feed.png">
+    <FlyoutItem Title="Find Scholarships" Icon="icon_twitter.png">
         <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:TwitterPage}" />
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    <MenuItem Text="Logout" Icon="icon_lock.png" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
     </MenuItem>
 
     <!--
@@ -110,6 +110,7 @@
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid>
+                <StackLayout BackgroundColor="#FDD888"></StackLayout>
                 <Image Source="pfp" WidthRequest="70" HeightRequest="70" Margin="15,10,0,10" HorizontalOptions="Start" />
                 <Label Text="Hi, Sarvagna" TextColor="White" FontSize="Large" FontAttributes="Bold, Italic" Margin="10,0,0,0" HorizontalOptions="Center"  VerticalOptions="Center" />
             </Grid>

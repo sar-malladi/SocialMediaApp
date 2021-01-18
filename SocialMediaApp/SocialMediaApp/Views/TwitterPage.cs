@@ -5,19 +5,11 @@ using Xamarin.Forms;
 
 namespace SocialMediaApp.Views
 {
-    public class TwitterPage: ContentPage
+    public class TwitterPage : ContentPage
     {
 
         public TwitterPage()
         {
-            /*  var lblContent = new Label
-              {
-                  Text = "Hello World!",
-                  HorizontalOptions = LayoutOptions.CenterAndExpand,
-                  VerticalOptions = LayoutOptions.Center
-              };
-
-              Content = lblContent;     */
 
             ShowPage();
 
@@ -31,7 +23,7 @@ namespace SocialMediaApp.Views
             };
 
             Content = browser;
-            
+
         }
 
     }
