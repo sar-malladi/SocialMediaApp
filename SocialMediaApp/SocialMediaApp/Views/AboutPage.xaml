@@ -30,7 +30,9 @@
         <ScrollView>
             <StackLayout Orientation="Vertical" Padding="20,20,20,20">
                 <Label Text="Sarvagna Malladi" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" Margin="0,150,0,30" TextColor="Black" />
-                <Label Text="General Description" TextColor="Black" HorizontalOptions="Center" FontSize="Medium" />
+                <Label Text="Oak Hills High School" TextColor="Black" HorizontalOptions="Center" FontSize="Medium" />
+                <Label Text=" "></Label>
+                <Label Text="I'm a high school freshman who's passionate about computer science and environmental advocacy." TextColor ="Black" HorizontalOptions="Start" FontSize="Subtitle"></Label>
             </StackLayout>
         </ScrollView>
     </Grid>
