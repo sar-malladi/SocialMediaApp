@@ -15,11 +15,12 @@ Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP
 
 Upon deploying and running the application, you will see your profile information. Click the icon at the top left of the screen to view the flyout bar and click on the options within the flyout bar to navigate through the application.
 
-This will create a bullet point list in your markdown
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* My Profile- view and edit your profile
+* Add Contacts- browse all contacts + add/remove contacts by clicking the box next to their name
+* My Contacts- view the contacts you have already added
+* Scholarships- view scholarship oppurtunities through Twitter
+* Logout- log out of StudentWeb
+
 
 ## Release History
 
