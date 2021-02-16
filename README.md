@@ -7,9 +7,11 @@ StudentWeb offers the same benefits and information to students, but in a more s
 
 ![](flyout.png)
 
+
 ## Application setup
 
 Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP file and deploy the application in Visual Studios using an Android Pixel phone emulator.
+
 
 ## Instructions
 
@@ -21,11 +23,13 @@ Upon deploying and running the application, you will see your profile informatio
 * Scholarships- view scholarship oppurtunities through Twitter
 * Logout- log out of StudentWeb
 
+
 ## Documentation and Copyright Compliance
 
 The default profile picture and color palette are Sarvagna Malladi's original designs.
 
 All other graphics (application logo, icons) are taken from Canva, a copyright-free website.
+
 
 ## Release History
 
