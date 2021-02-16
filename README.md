@@ -11,6 +11,16 @@ StudentWeb offers the same benefits and information to students, but in a more s
 
 Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP file and deploy the application in Visual Studios using an Android emulator.
 
+## Instructions
+
+Upon deploying and running the application, you will see your profile information. Click the icon at the top left of the screen to view the flyout bar and click on the options within the flyout bar to navigate through the application.
+
+This will create a bullet point list in your markdown
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
 ## Release History
 
 * 0.0.1
