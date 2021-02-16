@@ -9,7 +9,7 @@ StudentWeb offers the same benefits and information to students, but in a more s
 
 ## Application setup
 
-Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP file and deploy the application in Visual Studios using an Android emulator.
+Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP file and deploy the application in Visual Studios using an Android Pixel phone emulator.
 
 ## Instructions
 
