@@ -5,9 +5,6 @@ It is well known that sites like LinkedIn allow students to build a strong netwo
 
 StudentWeb offers the same benefits and information to students, but in a more student-friendly environment. It eliminates the chat feature to ensure online safety and includes categories that are more applicable to students, such as the high school they attend. StudentWeb revolutionizes the way high school and college students network with potential employees and colleagues.
 
-![](flyout.png)
-
-
 ## Application setup
 
 Visit https://github.com/sar-malladi/SocialMediaApp. Download the files as a ZIP file and deploy the application in Visual Studios using an Android Pixel phone emulator.
