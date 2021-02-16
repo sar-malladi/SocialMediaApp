@@ -21,6 +21,11 @@ Upon deploying and running the application, you will see your profile informatio
 * Scholarships- view scholarship oppurtunities through Twitter
 * Logout- log out of StudentWeb
 
+## Documentation and Copyright Compliance
+
+The default profile picture and color palette are Sarvagna Malladi's original designs.
+
+All other graphics (application logo, icons) are taken from Canva, a copyright-free website.
 
 ## Release History
 
