@@ -1,7 +1,9 @@
 # StudentWeb
 > A professional networking application designed for students
 
-It is well known that sites like LinkedIn allow students to build a strong network of professional contacts, to get job alerts, and to prove their dedication to a chosen career. So why are only 9% of high school students using LinkedIn. LinkedIn is mainly targeted to college graduates and professionals. It’s not designed to engage young students and thus lacks a student-friendly interface. For instance, features like the user’s current place of work are not applicable to most students. Students may also receive unwelcome messages from strangers and telemarketers.
+It is well known that sites like LinkedIn allow students to build a strong network of professional contacts, to get job alerts, and to prove their dedication to a chosen career. So why are only 9% of high school students using LinkedIn?
+
+LinkedIn is mainly targeted to college graduates and professionals. It’s not designed to engage young students and thus lacks a student-friendly interface. For instance, features like the user’s current place of work are not applicable to most students. Students may also receive unwelcome messages from strangers and telemarketers.
 
 StudentWeb offers the same benefits and information to students, but in a more student-friendly environment. It eliminates the chat feature to ensure online safety and includes categories that are more applicable to students, such as the high school they attend. StudentWeb revolutionizes the way high school and college students network with potential employees and colleagues.
 
